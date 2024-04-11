@@ -1,0 +1,32 @@
+.banner {
+    background-color: rgb(255, 242, 242);
+}
+
+.banner--blue {
+    background-color: rgb(121, 121, 253);
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.banner > p {
+    font-size: 20px;
+}
+
+.banner__description {
+    font-size: 10px;
+}
+
+div p {
+
+}
+
+.banner .banner__description {
+    font-size: 40px;
+}

@@ -1,0 +1,32 @@
+.calculator {
+    justify-content: center; 
+
+}
+.calculator__input {
+  height: 50px;
+  font-size: 30px;
+  text-align: right;
+}
+
+.calculator__calculate {
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.calculator__input-validation-message {
+  color: rgb(132, 4, 4);
+}
+
+.calculator__buttons {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 70px 70px 70px;
+  grid-auto-rows: auto;
+}
+
+.calculator__button {
+  background-color: #F28500;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
